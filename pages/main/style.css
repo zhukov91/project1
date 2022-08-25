@@ -245,7 +245,6 @@ img {
   max-width: 100%;
 }
 
-h1,
 h2,
 h3,
 h4,
@@ -543,7 +542,7 @@ body {
 }
 
 .menu__link {
-  font-size: 16px;
+  font-size: 17px;
   font-family: "Arial";
   line-height: 160%;
   color: #787B7A;
@@ -723,6 +722,49 @@ font-size: 17px;
     margin: 30px 10px 60px 10px;
   }
 }
+
+
+/* !==== world lending==== */
+.world-leading {
+  /*padding-top: 4rem;
+  padding-bottom: 4rem;*/
+}
+.world-leading-container {
+
+}
+.container {
+  max-width: 1280px;
+  padding: 0 40px 0 40px;
+  margin: 0 auto;
+}
+.world-leading-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 185px 0 0 0;
+}
+.world-leading-content h1{
+  max-width: 460px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 80px;
+  font-family: "Sofia Pro";
+  font-size: 44px;
+  line-height: 130%;
+  color: #5A5A5A;
+  max-width: 490px;
+  margin-bottom: 42px;
+}
+
+.world-leading-title{
+
+}
+.world-leading-btn {}
+.btn {}
+.btn-primary {}
+.btn-link {}
+.world-leading-img {}
+
 
 /*-----------not-only-----------*/
 .page__our-pets {
