@@ -27,3 +27,15 @@ menu.addEventListener('click', function (event) {
 })
 
 blackScreen.addEventListener('click', () => burgerClose());
+
+// Popup Default
+$('.popup-default-click').click(function() {
+  $('body').addClass('over-hidden');
+  $('.overlay').fadeIn();
+  $('.popup-default').fadeIn();
+});
+
+$('.popup-close, .overlay').click(function() {
+  closePopup();
+});
+
