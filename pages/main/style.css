@@ -797,7 +797,9 @@ font-size: 17px;
 
 /* !==== contact-us ==== */
 
-.contact-us {}
+.contact-us {
+  padding-top: 200px;
+}
 .contact-us-container {
   width: 1050px;
   height: 575px;
