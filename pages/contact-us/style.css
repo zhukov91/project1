@@ -811,24 +811,25 @@ font-size: 17px;
   margin: auto;
   background: #e0dce6;
   border-radius: 15px;
+  margin-top: 130px;
 }
 .contact-us-wrapper {
   box-shadow: 0 0 1.111rem rgb(0 0 0 / 20%);
   border-radius: 0.67rem;
   padding: 2.5rem;
-  background: rgb(227, 206, 206);
+  background: #fff;
 
 }
 .contact-us-header {
   margin-bottom: 3rem;
 }
 .contact-us-header h5{
-  color: #FFFFFF;
+  color: #898B8A;
   font-size: 33px;
   font-weight: 200;
 }
 .contact-us-header h4{
-  color: #FFFFFF;
+  color: #5A5A5A;
   font-size: 65px;
   font-weight: 300;
 }
@@ -854,7 +855,9 @@ font-size: 17px;
 .form-group {
   margin-bottom: 1rem;
 }
+
 .popup-field {
+  font-family: sans-serif;
   width: 100%;
   background-color: #FFFFFF;
   border: 1px solid #959595;
@@ -888,12 +891,13 @@ font-size: 17px;
   margin-left: 20px;
 }
 .contact-info h6 {
-  color: #FFFFFF;
+  color: #707372;
   font-size: 24px;
   font-weight: 700;
+  margin-bottom: 5px;
 }
 .contact-info a {
-  color: #fbf7f7;
+  color: #707372;
   font-size: 16px;
   font-weight: 300;
 }
