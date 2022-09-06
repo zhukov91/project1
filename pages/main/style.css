@@ -391,11 +391,6 @@ body {
   box-shadow: 0 3px 5px -1px rgb(0 0 0 / 10%), 0 2px 1px -1px rgb(0 0 0 / 5%);
 }
 
-@media (max-width: 1370px) {
-  .header__logo ::before{
-    display: none;
-  }
-}
 
 
 .header__container {
@@ -416,6 +411,7 @@ body {
 .header__logo {
   max-width: 186px;
   position: relative;
+  margin-left: 60px;
 }
 .header__logo ::before {
   content: '';
@@ -424,9 +420,9 @@ body {
     top: 0px;
     bottom: 0;
     margin: auto;
-    background-image: url(/project1/assets/icons/logo1.png);
-    width: 60px;
-    height: 60px;
+    background-image: url(/project1/assets/icons/logo1.jpg);
+    width: 80px;
+    height: 80px;
 }
 
 
@@ -435,7 +431,7 @@ body {
   padding-left: 13px;
   display: inline-block;
   white-space: nowrap;
-  font-size: 38px;
+  font-size: 40px;
   font-family: "Georgia";
   line-height: 113%;
   color: #00B140;
@@ -450,7 +446,14 @@ body {
   color: #787B7A;
   margin-left: 4px;
 }
-
+@media (max-width: 1100px) {
+  .header__logo ::before{
+    display: none;
+  }
+  .header__logo{
+    margin-left: 5px;
+  }
+}
 @media screen and (max-width: 767px) {
   .menu {
     width: 320px;
@@ -647,7 +650,11 @@ font-size: 17px;
     display: none;
   }
 }
-
+@media (max-width: 456px) {
+  .tel{
+    display: none;
+  }
+}
 /*-----------Burger-----------*/
 .burger {
   display: none;

@@ -391,11 +391,6 @@ body {
   box-shadow: 0 3px 5px -1px rgb(0 0 0 / 10%), 0 2px 1px -1px rgb(0 0 0 / 5%);
 }
 
-@media (max-width: 1370px) {
-  .header__logo ::before{
-    display: none;
-  }
-}
 
 
 .header__container {
@@ -416,17 +411,18 @@ body {
 .header__logo {
   max-width: 186px;
   position: relative;
+  margin-left: 60px;
 }
 .header__logo ::before {
   content: '';
-    position: absolute;
-    left: -74px;
-    top: 0px;
-    bottom: 0;
-    margin: auto;
-    background-image: url(/project1/assets/icons/logo1.png);
-    width: 60px;
-    height: 60px;
+  position: absolute;
+  left: -74px;
+  top: 0px;
+  bottom: 0;
+  margin: auto;
+  background-image: url(/project1/assets/icons/logo1.jpg);
+  width: 80px;
+  height: 80px;
 }
 
 
@@ -435,7 +431,7 @@ body {
   padding-left: 13px;
   display: inline-block;
   white-space: nowrap;
-  font-size: 38px;
+  font-size: 40px;
   font-family: "Georgia";
   line-height: 113%;
   color: #00B140;
@@ -451,6 +447,14 @@ body {
   margin-left: 4px;
 }
 
+@media (max-width: 1100px) {
+  .header__logo ::before{
+    display: none;
+  }
+  .header__logo{
+    margin-left: 5px;
+  }
+}
 @media screen and (max-width: 767px) {
   .menu {
     width: 320px;
@@ -647,6 +651,11 @@ font-size: 17px;
     display: none;
   }
 }
+@media (max-width: 456px) {
+  .tel{
+    display: none;
+  }
+}
 
 /*-----------Burger-----------*/
 .burger {
@@ -801,7 +810,7 @@ font-size: 17px;
   
 }
 .contact-us-container {
-  width: 1050px;
+  width: 900px;
   height: 575px;
   position: fixed;
   left: 0;
@@ -827,14 +836,18 @@ font-size: 17px;
   color: #898B8A;
   font-size: 33px;
   font-weight: 200;
+  padding-left: 6px;
+  text-align: center;
 }
 .contact-us-header h4{
   color: #5A5A5A;
   font-size: 65px;
   font-weight: 300;
+  text-align: center;
 }
 .contact-us-content {
   display: flex;
+  justify-content: space-evenly;
 }
 .contact-us-post-form {}
 .contact-us-contact-info {}
@@ -860,7 +873,7 @@ font-size: 17px;
   font-family: sans-serif;
   width: 100%;
   background-color: #FFFFFF;
-  border: 1px solid #959595;
+  border: 2px solid #959595;
   height: 56px;
   border-radius: 35px;
   padding: 0 15px 0 50px;
@@ -1135,4 +1148,7 @@ font-size: 17px;
     width: 260px;
   }
 }
+
+
+
 
