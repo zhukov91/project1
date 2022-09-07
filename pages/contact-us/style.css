@@ -411,7 +411,7 @@ body {
 .header__logo {
   max-width: 186px;
   position: relative;
-  margin-left: 60px;
+  margin-left: 65px;
 }
 .header__logo ::before {
   content: '';
@@ -444,7 +444,7 @@ body {
   line-height: 115%;
   letter-spacing: 0.1em;
   color: #787B7A;
-  margin-left: 4px;
+  margin-left: 6px;
 }
 
 @media (max-width: 1100px) {
@@ -610,6 +610,7 @@ body {
   flex-wrap: wrap;
   width: 200px;
   line-height: 22px;
+  padding-left: 15px;
 }
 .tel a{
 font-family: system-ui;
@@ -652,9 +653,10 @@ font-size: 17px;
   }
 }
 @media (max-width: 456px) {
-  .tel{
-    display: none;
+  .tel a{
+    content: "large screen";
   }
+
 }
 
 /*-----------Burger-----------*/
@@ -847,9 +849,11 @@ font-size: 17px;
 }
 .contact-us-content {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
 }
-.contact-us-post-form {}
+.contact-us-post-form {
+  margin-right: 35px;
+}
 .contact-us-contact-info {}
 .form-icon{
   position: relative;
@@ -866,7 +870,8 @@ font-size: 17px;
     color: #f20073;
 }
 .form-group {
-  margin-bottom: 1rem;
+  margin-bottom: 1.2rem;
+  width: 330px;
 }
 
 .popup-field {
@@ -898,20 +903,20 @@ font-size: 17px;
   background-color: #06963b;
 }
 .contact-info {
-  margin-bottom: 15px;
-  padding-bottom: 15px;
+  margin-bottom: 10px;
+  padding-bottom: 11px;
   border-bottom: 1px solid #5c4283;
   margin-left: 20px;
 }
 .contact-info h6 {
   color: #707372;
-  font-size: 24px;
+  font-size: 25px;
   font-weight: 700;
   margin-bottom: 5px;
 }
 .contact-info a {
   color: #707372;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 300;
 }
 

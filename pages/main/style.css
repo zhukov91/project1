@@ -411,7 +411,7 @@ body {
 .header__logo {
   max-width: 186px;
   position: relative;
-  margin-left: 60px;
+  margin-left: 65px;
 }
 .header__logo ::before {
   content: '';
@@ -444,7 +444,7 @@ body {
   line-height: 115%;
   letter-spacing: 0.1em;
   color: #787B7A;
-  margin-left: 4px;
+  margin-left: 6px;
 }
 @media (max-width: 1100px) {
   .header__logo ::before{
@@ -609,6 +609,7 @@ body {
   flex-wrap: wrap;
   width: 200px;
   line-height: 22px;
+  padding-left: 15px;
 }
 .tel a{
 font-family: system-ui;
