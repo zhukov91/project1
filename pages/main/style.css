@@ -835,6 +835,73 @@ font-size: 17px;
 .contact-us-contact-info {}
 
 
+/* ! section portfolio */
+.portfolio {}
+.portfolio-container {}
+.container {}
+.portfolio-wrapper {}
+.portfolio-title{
+  text-align: center;
+  max-width: 960px;
+  margin: 0 auto;
+  margin-bottom: 27px;
+}
+.portfolio-title h2{
+  
+  text-align: center;
+  font-family: "Sofia Pro";
+  font-size: 70px;
+  color: #5a5a5a;
+  font-weight: 700;
+}
+.portfolio-subtitle {
+  margin-bottom: 27px;
+}
+.portfolio-subtitle-wrapper{
+  max-width: 960px;
+  margin: 0 auto;
+}
+.portfolio-subtitle-wrapper h3{
+  text-align: center;
+  color: #5a5a5a;
+  font-family: "Sofia Pro";
+  font-size: 27px;
+  line-height: 1.5em;
+  opacity: 0.825;
+  font-weight: 600;
+}
+.full-portfolio-btn{
+  margin-bottom: 27px;
+  text-align: center;
+}
+.full-portfolio-btn a{
+  font-family: "Sofia Pro"; 
+  font-size: 27px;
+  font-weight: 600;
+  letter-spacing: .05em;
+  border-radius: 0;
+  padding: 0;
+  background: 0 0;
+  border-color: transparent;
+  color:#00b140;
+}
+.portfolio-newsite {
+  max-width: 1320px;
+}
+.w-grid-list{
+  display: flex;
+  flex-wrap: wrap;
+  margin: -1.25%;
+}
+.w-grid-item img{
+  height: 25%;
+}
+.w-grid-item {
+  padding: 1.25%;
+  width: 25%;
+  height: 25%;
+}
+
 
 
 
