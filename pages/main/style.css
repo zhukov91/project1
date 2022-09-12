@@ -738,6 +738,7 @@ font-size: 17px;
 /* !==== world lending==== */
 .world-leading {
   color: #707372;
+  padding-bottom: 72px;
 }
 .world-leading-container {
 
@@ -836,7 +837,9 @@ font-size: 17px;
 
 
 /* ! section portfolio */
-.portfolio {}
+.portfolio {
+  padding-bottom: 27px;
+}
 .portfolio-container {}
 .container {}
 .portfolio-wrapper {}
@@ -903,7 +906,55 @@ font-size: 17px;
 }
 
 
-
+/* ! provide */
+.provide {
+  padding: 108px 45px;
+}
+.provide-container {}
+.container {}
+.provide-wrapper {
+  display: flex;
+}
+.provide-img{
+  
+}
+.provide-img img{
+  width: 1024px;
+  height: 860px;
+  height: auto;
+  max-width: 100%;
+}
+.provide-content {}
+.provide-inner {}
+.provide-title {
+  text-align: left;
+  font-family: "Sofia Pro";
+  font-size: 70px;
+  color: #5a5a5a;
+  font-weight: 700;
+  padding-bottom: 50px;
+}
+.provide-item1 {}
+.content-item1{
+  max-width: 390px;
+}
+.content-item1 h3{
+  font-family: "Sofia Pro";
+  font-size: 31px;
+  color: #5a5a5a;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+.content-item1 p{
+  font-family: "Sofia Pro";
+  font-size: 18px;
+  color: #707372;
+  font-weight: 700;
+}
+.provide-item2 {}
+.content-item2 {}
+.provide-item3 {}
+.content-item3 {}
 
 
 
